@@ -30,6 +30,6 @@ def predict():
     label = prediction[0]
     print(type(label))
     print(label)
-    st.success('The Price is : ' + str(label) + ' :thumbsup:')
+    st.success('The Price is : ' + str(label/100) + ' :thumbsup:')
     
 trigger = st.button('Predict', on_click=predict)
