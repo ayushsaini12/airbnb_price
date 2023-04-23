@@ -4,7 +4,7 @@ import pickle
 
 model = pickle.load(open('reg.pkl', 'rb'))
 
-st.title('price? :blossom:')
+st.title('Airbnb Price Prediction')
 
 host_identity_verified_option = [0,1]
 instant_bookable_option= [0,1]
